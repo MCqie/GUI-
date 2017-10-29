@@ -1,0 +1,13 @@
+name: GuiTransaction
+main: pers.byxiaobai.guitransaction.GuiTransaction
+version: 1.0
+author: byxiaobai
+commands:
+  tr:
+    description: 插件主指令
+    usage: §e/tr ID 邀请对方交易
+    permission: GuiTransaction.GuiTransaction
+    permission-message: §4您没有权限执行这个命令
+permissions:
+  GuiTransaction.GuiTransaction:
+    default: true
